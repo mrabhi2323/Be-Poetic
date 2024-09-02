@@ -14,7 +14,7 @@ const Header = () => {
     // }
     return (
         <div className="header flex">
-            <h1>Keep Notes <FontAwesomeIcon icon={faPencilAlt} /></h1>
+            <h1>Be-Poetic<FontAwesomeIcon icon={faPencilAlt} /></h1>
             <button onClick={handleReload} >New Note</button>
         </div>
     );
